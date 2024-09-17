@@ -9,3 +9,17 @@
   outline: none;
   transition: 0.3s;
 }
+:root
+{
+  /* COLOR */
+  --black-clr: #000;
+  --darker-clr: #171616;
+  --dark-clr: #515151;
+  --white-clr: #fff;
+  /* FONTSIZE */
+  --font-size-64px: 64px;
+  --font-size-30px: 30px;
+  --font-size-18px: 18px;
+  --font-size-16px: 16px;
+  --font-size-14px: 14px;
+}
