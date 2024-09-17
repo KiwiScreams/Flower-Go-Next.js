@@ -45,13 +45,14 @@ header .logo
 header.mobile
 {
     padding: 60px 20px 0 20px;
-    background-color: blueviolet;
     display: none;
 }
 header.mobile nav ul
 {
     position: absolute;
-    background-color: red;
+    background-color: var(--white-clr);
+    opacity: 0.9;
+    backdrop-filter: blur(50px);
     flex-direction: column;
     right: 0;
     top: 0px;
@@ -76,6 +77,17 @@ header.mobile ul
 {
     gap: 8px;
 }
+header.mobile .bar-container
+{
+    display: inline-block;
+    cursor: pointer;
+}
+header.mobile .close
+{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
 .nav
 {
     display: none;
@@ -83,11 +95,6 @@ header.mobile ul
 .nav.show
 {
     display: block;
-}
-header.mobile .bar-container
-{
-    display: inline-block;
-    cursor: pointer;
 }
 .bar1,
 .bar2,
