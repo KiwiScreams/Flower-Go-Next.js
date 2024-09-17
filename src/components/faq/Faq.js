@@ -11,32 +11,45 @@ const Faq = () => {
 
   return (
     <div className="faq-container">
-      <h2>Frequently Asked Questions</h2>
       <ul>
         <li
           className={activeIndex === 0 ? "active" : ""}
           onClick={() => handleToggle(0)}
         >
-          <h3>Q: What is this FAQ about?</h3>
+          <h3>Description</h3>
           {activeIndex === 0 && (
-            <p>A: This FAQ is about answering common questions.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat quis
+              imperdiet sodales egestas. Neque suspendisse sed accumsan,
+              molestie aliquet.
+            </p>
           )}
         </li>
         <li
           className={activeIndex === 1 ? "active" : ""}
           onClick={() => handleToggle(1)}
         >
-          <h3>Q: How do I use this FAQ?</h3>
+          <h3>Ingredients</h3>
           {activeIndex === 1 && (
-            <p>A: Simply read through the questions and answers.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat quis
+              imperdiet sodales egestas. Neque suspendisse sed accumsan,
+              molestie aliquet.
+            </p>
           )}
         </li>
         <li
           className={activeIndex === 2 ? "active" : ""}
           onClick={() => handleToggle(2)}
         >
-          <h3>Q: Can I ask more questions?</h3>
-          {activeIndex === 2 && <p>A: Yes, feel free to ask us anything!</p>}
+          <h3>Testimonials</h3>
+          {activeIndex === 2 && (
+            <p>
+              YLorem ipsum dolor sit amet, consectetur adipiscing elit. Erat
+              quis imperdiet sodales egestas. Neque suspendisse sed accumsan,
+              molestie aliquet.
+            </p>
+          )}
         </li>
       </ul>
     </div>
