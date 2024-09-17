@@ -46,6 +46,7 @@ header.mobile
 {
     padding: 60px 20px 0 20px;
     background-color: blueviolet;
+    display: none;
 }
 header.mobile nav ul
 {
@@ -75,4 +76,31 @@ header.mobile nav
 header.mobile ul
 {
     gap: 8px;
+}
+@media screen and (max-width: 1110px)
+{
+    header
+    {
+        width: 100%;
+        padding: 60px 12px 0 12px;
+    }
+    header ul
+    {
+        gap: 10px;
+    }
+    header nav ul
+    {
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 600px)
+{
+    header.desktop
+    {
+        display: none;
+    }
+    header.mobile
+    {
+        display: flex;
+    }
 }
