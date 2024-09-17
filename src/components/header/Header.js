@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import Image from "next/image";
 import Heart from "../../app/assets/images/icons/Heart.svg";
 import Profile from "../../app/assets/images/icons/Profile.svg";
