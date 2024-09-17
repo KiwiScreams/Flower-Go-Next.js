@@ -1,6 +1,8 @@
 "use client";
 import "./Faq.css";
 import { useState } from "react";
+import Image from "next/image";
+import plusIcon from "../../app/assets/images/icons/plus.svg";
 
 const Faq = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -24,6 +26,7 @@ const Faq = () => {
               molestie aliquet.
             </p>
           )}
+          {activeIndex !== 0 && <Image src={plusIcon} alt="" />}
         </li>
         <li
           className={activeIndex === 1 ? "active" : ""}
@@ -37,6 +40,7 @@ const Faq = () => {
               molestie aliquet.
             </p>
           )}
+          {activeIndex !== 1 && <Image src={plusIcon} alt="" />}
         </li>
         <li
           className={activeIndex === 2 ? "active" : ""}
@@ -50,6 +54,7 @@ const Faq = () => {
               molestie aliquet.
             </p>
           )}
+          {activeIndex !== 2 && <Image src={plusIcon} alt="" />}
         </li>
       </ul>
     </div>
