@@ -59,7 +59,6 @@ header.mobile nav ul
     left: 10%;
     padding: 120px 20px;
     z-index: 2;
-    display: none;
 }
 header.mobile .logo
 {
@@ -76,6 +75,14 @@ header.mobile nav
 header.mobile ul
 {
     gap: 8px;
+}
+.nav
+{
+    display: none;
+}
+.nav.show
+{
+    display: block;
 }
 header.mobile .bar-container
 {
