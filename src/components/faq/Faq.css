@@ -38,3 +38,19 @@
 {
     opacity: 0.8;
 }
+@media screen and (max-width: 1130px)
+{
+    .faq-container
+    {
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 920px)
+{
+    .faq-section
+    {
+        width: 100%;
+    }
+}
