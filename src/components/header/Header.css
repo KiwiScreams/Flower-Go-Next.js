@@ -1,0 +1,44 @@
+header
+{
+    width: 100%;
+    padding: 60px 162px 0 182px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 28px;
+}
+header nav ul
+{
+    gap: 50px;
+}
+header img
+{
+    width: 20px;
+    height: 20px;
+}
+header li
+{
+    cursor: pointer;
+    opacity: 0.5;
+    font-size: var(--font-size-18px);
+}
+header li.active
+{
+    color: var(--darker-clr);
+    opacity: 1;
+}
+header li:hover
+{
+    opacity: 1;
+}
+header .logo
+{
+    cursor: pointer;
+    font-weight: 300;
+}

@@ -8,10 +8,10 @@ const Header = () => {
   return (
     <>
       <header>
-        <h1>Flower Go</h1>
+        <h1 className="logo">Flower Go</h1>
         <nav>
           <ul>
-            <li>Home</li>
+            <li className="active">Home</li>
             <li>Red Rose</li>
             <li>Lotus</li>
             <li>Jasmine</li>
@@ -21,7 +21,11 @@ const Header = () => {
         <ul>
           <li>
             <Image src={Heart} alt="" width={400} height={300} />
+          </li>
+          <li>
             <Image src={Profile} alt="" width={400} height={300} />
+          </li>
+          <li>
             <Image src={Buy} alt="" width={400} height={300} />
           </li>
         </ul>
