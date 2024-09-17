@@ -49,11 +49,12 @@ header.mobile
 }
 header.mobile nav ul
 {
-    position: absolute;
+    position: fixed;
     background-color: var(--white-clr);
     opacity: 0.9;
     backdrop-filter: blur(50px);
     flex-direction: column;
+    animation: headerAnim 0.3s ease-in-out;
     right: 0;
     top: 0px;
     bottom: 0;
@@ -124,6 +125,19 @@ header.mobile .close
 .change .bar3
 {
     transform: translate(0, -11px) rotate(45deg);
+}
+@keyframes headerAnim
+{
+    from
+    {
+        right: -300px;
+        top: 100px;
+    }
+    to
+    {
+        right: 0px;
+        top: 0;
+    }
 }
 @media screen and (max-width: 1110px)
 {

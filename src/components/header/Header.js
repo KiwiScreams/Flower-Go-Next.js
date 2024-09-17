@@ -46,7 +46,7 @@ const Header = () => {
             <li>Jasmine</li>
             <li>Contact</li>
             <li className="close">
-              <span onClick={() => setIsOpen(false)}>x</span>
+              <span onClick={() => setIsOpen(false)}>X</span>
             </li>
           </ul>
         </nav>
