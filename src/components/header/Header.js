@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import Heart from "../../app/assets/images/icons/Heart.svg";
+import Profile from "../../app/assets/images/icons/Profile.svg";
+import Buy from "../../app/assets/images/icons/Buy.svg";
 import "./Header.css";
 const Header = () => {
   return (
@@ -19,8 +21,8 @@ const Header = () => {
         <ul>
           <li>
             <Image src={Heart} alt="" width={400} height={300} />
-            <Image src={Heart} alt="" width={400} height={300} />
-            <Image src={Heart} alt="" width={400} height={300} />
+            <Image src={Profile} alt="" width={400} height={300} />
+            <Image src={Buy} alt="" width={400} height={300} />
           </li>
         </ul>
       </header>
