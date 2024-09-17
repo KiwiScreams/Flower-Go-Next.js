@@ -42,3 +42,37 @@ header .logo
     cursor: pointer;
     font-weight: 300;
 }
+header.mobile
+{
+    padding: 60px 20px 0 20px;
+    background-color: blueviolet;
+}
+header.mobile nav ul
+{
+    position: absolute;
+    background-color: red;
+    flex-direction: column;
+    right: 0;
+    top: 0px;
+    bottom: 0;
+    left: 10%;
+    padding: 120px 20px;
+    z-index: 2;
+    display: none;
+}
+header.mobile .logo
+{
+    font-size: var(--font-size-22px);
+}
+header.mobile nav ul li
+{
+    font-size: var(--font-size-30px);
+}
+header.mobile nav
+{
+    gap: 10px;
+}
+header.mobile ul
+{
+    gap: 8px;
+}
