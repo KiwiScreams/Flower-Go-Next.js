@@ -20,13 +20,13 @@ const Header = () => {
         </nav>
         <ul>
           <li>
-            <Image src={Heart} alt="" width={400} height={300} />
+            <Image src={Heart} alt="" />
           </li>
           <li>
-            <Image src={Profile} alt="" width={400} height={300} />
+            <Image src={Profile} alt="" />
           </li>
           <li>
-            <Image src={Buy} alt="" width={400} height={300} />
+            <Image src={Buy} alt="" />
           </li>
         </ul>
       </header>
@@ -43,15 +43,16 @@ const Header = () => {
         </nav>
         <ul>
           <li>
-            <Image src={Heart} alt="" width={400} height={300} />
+            <Image src={Heart} alt="" />
           </li>
           <li>
-            <Image src={Profile} alt="" width={400} height={300} />
+            <Image src={Profile} alt="" />
           </li>
           <li>
-            <Image src={Buy} alt="" width={400} height={300} />
+            <Image src={Buy} alt="" />
           </li>
         </ul>
+
       </header>
     </>
   );
