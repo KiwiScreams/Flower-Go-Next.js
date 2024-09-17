@@ -8,11 +8,12 @@
   border: 1px solid var(--darker-clr);
   border-left: none;
   border-right: none;
+  position: relative;
 }
 .faq-container h3
 {
-  margin-top: 0;
   font-weight: lighter;
+  cursor: pointer;
   font-size: var(--font-size-18px);
 }
 .faq-container li p
@@ -24,4 +25,16 @@
   display: block;
   margin-top: 22px;
   color: var(--dark-clr);
+}
+.faq-container img
+{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    cursor: pointer;
+    transform: translate(-50%, 0);
+}
+.faq-container img:hover
+{
+    opacity: 0.8;
 }
