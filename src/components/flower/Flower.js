@@ -6,18 +6,20 @@ const Flower = () => {
   return (
     <>
       <section className="flower-section">
-        <div>
+        <div className="text-container">
           <h2>Minimal red tulip flower vase.</h2>
           <span>$18.99</span>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat quis
             imperdiet sodales. Add to Cart
           </p>
-          <button>Add to Cart</button>
-          <Image src={heartIcon} alt="" />
+          <div className="bottom">
+            <button>Add to Cart</button>
+            <Image src={heartIcon} alt="" />
+          </div>
         </div>
-        <div>
-          <Image src={flower} alt="" />
+        <div className="flower-container">
+          <Image src={flower} alt=""/>
         </div>
       </section>
     </>
