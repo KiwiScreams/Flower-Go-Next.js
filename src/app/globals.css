@@ -11,12 +11,10 @@
 }
 :root
 {
-  /* COLOR */
   --black-clr: #000;
   --darker-clr: #171616;
   --dark-clr: #515151;
   --white-clr: #fff;
-  /* FONTSIZE */
   --font-size-64px: 64px;
   --font-size-22px: 22px;
   --font-size-48px: 48px;
@@ -74,6 +72,6 @@ button
     }
     body
     {
-      overflow-y: scroll;
+      overflow-y: auto;
     }
 }
