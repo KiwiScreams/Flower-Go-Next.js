@@ -52,7 +52,11 @@ const Header = () => {
             <Image src={Buy} alt="" />
           </li>
         </ul>
-
+        <div className="bar-container">
+          <div className="bar1"></div>
+          <div className="bar2"></div>
+          <div className="bar3"></div>
+        </div>
       </header>
     </>
   );
